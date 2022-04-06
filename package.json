@@ -15,7 +15,7 @@
     "deploy:dev": "yarn && yarn build && aws s3 rm s3://hml.undistro.io --recursive && aws s3 sync build/ s3://hml.undistro.io --acl public-read"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.15",
+    "@docusaurus/core": "2.0.0-beta.18",
     "@docusaurus/preset-classic": "2.0.0-beta.18",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
